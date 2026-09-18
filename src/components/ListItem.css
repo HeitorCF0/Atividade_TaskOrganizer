@@ -1,0 +1,59 @@
+.list-item {
+    padding: 1rem;
+    border: 1px solid #d8dee2;
+    border-radius: 6px;
+    background: #ffffff;
+    box-shadow: 0 2px 8px rgb(36 49 58 / 8%);
+}
+
+.list-item.completed {
+    border-color: #78a889;
+    background: #eef7f0;
+}
+
+.list-item.completed h4 {
+    color: #55705c;
+    text-decoration: line-through;
+}
+
+.list-item h4 {
+    margin-bottom: 0.5rem;
+    font-size: 1.1rem;
+}
+
+.list-item p {
+    margin: 0.25rem 0;
+    color: #64717a;
+}
+
+.list-item-actions {
+    display: flex;
+    gap: 0.5rem;
+    margin-top: 1rem;
+}
+
+.list-item button {
+    padding: 0.5rem 0.75rem;
+    border: 0;
+    border-radius: 4px;
+    color: #ffffff;
+    cursor: pointer;
+    font: inherit;
+}
+
+#Conclude {
+    background: #277da1;
+}
+
+#Exclude {
+    background: #c94c4c;
+}
+
+.list-item button:hover:not(:disabled) {
+    filter: brightness(0.9);
+}
+
+.list-item button:disabled {
+    background: #aeb8be;
+    cursor: not-allowed;
+}

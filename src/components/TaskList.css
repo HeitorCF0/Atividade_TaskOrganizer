@@ -1,0 +1,16 @@
+.task-list {
+    width: min(90%, 560px);
+    margin: 2rem auto;
+    color: #24313a;
+}
+
+.task-list h2 {
+    margin-bottom: 1rem;
+    text-align: center;
+}
+
+.task-list-items {
+    display: grid;
+    gap: 1rem;
+    list-style: none;
+}
