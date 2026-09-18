@@ -1,0 +1,14 @@
+.summary {
+    margin: 1.5rem 0;
+    padding: 1rem;
+    border: 1px solid #24313a;
+    background-color: #f4f7f8;
+}
+
+.summary h3 {
+    margin-bottom: 0.75rem;
+}
+
+.summary p {
+    line-height: 1.5;
+}

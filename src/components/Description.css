@@ -1,0 +1,14 @@
+.Description {
+    width: min(90%, 560px);
+    margin: 2rem auto 0;
+    text-align: center;
+}
+
+#DescriptionContainer {
+    padding: 1rem;
+    border: 1px solid #d8dee2;
+    border-radius: 6px;
+    background-color: #eef7f0;
+    box-shadow: 0 2px 8px rgb(36 49 58 / 8%);
+    color: #55705c;
+}
