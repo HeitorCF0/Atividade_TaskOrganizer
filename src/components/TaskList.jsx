@@ -27,7 +27,7 @@ const TaskList = () => {
         <main className='task-list'>
             <h2>Lista de Tarefas</h2>
             <Summary tasks={tasks}/>
-            <p>{tasks.length === 0
+            <p id='message'>{tasks.length === 0
                 ? 'Sem tarefas na lista'
                 : possuiTarefasPendentes
                     ? 'Você ainda possui tarefas pendentes.'
